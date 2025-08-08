@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Space+Grotesk:wght@300..700&display=swap");
+
+:root {
+  --primary-color: indianred;
+  --secondary-color: #343a40;
+  --dark-text: rgb(49, 13, 13);
+  --muted-text: #777;
+  --icon-color: darkgray;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  font-family: poppins, sans-serif;
+}
+
+.navBar {
+  background-color: var(--secondary-color) !important;
+  a {
+    transition: 0.5s;
+  }
+  a:hover:not(.logo) {
+    text-transform: uppercase;
+    background-color: var(--primary-color) !important;
+    border-radius: 2rem;
+    color: white !important;
+    font-weight: lighter;
+  }
+}
+.homeBtn,
+.formInfo {
+  color: var(--primary-color) !important;
+}
+
+.hrColor {
+  color: var(--dark-text) !important;
+  border: 1px solid !important;
+}
+.dropDown {
+  transition: 0.3s;
+  background-color: var(--secondary-color) !important;
+  li:hover {
+    overflow: hidden;
+    transition: 0s;
+    background-color: var(--primary-color) !important;
+    a {
+      transition: 0.3s;
+      background-color: var(--primary-color) !important;
+      margin-left: 0.4rem !important;
+    }
+  }
+}
+.dropDownToggle:hover {
+  transition: 0.3s;
+  background-color: var(--primary-color) !important;
+  text-transform: uppercase !important;
+}
+.icon {
+  color: var(--icon-color) !important;
+}
+.icon:hover {
+  color: var(--primary-color) !important;
+}
+.bColor,
+.formSubmit {
+  background-color: var(--primary-color) !important;
+}
+.bColor:hover {
+  transform: scale(1.1);
+}
+.storeName {
+  letter-spacing: 0.2rem;
+}
+.storeDesc {
+  letter-spacing: 0.2rem;
+  color: var(--muted-text) !important;
+}
+
+.dealsTextHover:hover h2 {
+  padding: 3rem;
+  display: block !important;
+  position: absolute !important;
+  background-color: var(--primary-color) !important;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.feedbackInput {
+  height: 70% !important;
+}
+
+@media screen and (max-width: 992px) {
+  .landingPage {
+    height: auto !important;
+  }
+}
+@media screen and (max-width: 768px) {
+  .formSubmit {
+    width: 100% !important;
+  }
+  .siteInfo {
+    text-align: center !important;
+  }
+}
