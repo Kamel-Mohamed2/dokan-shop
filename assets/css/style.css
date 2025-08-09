@@ -95,7 +95,7 @@ body {
 }
 
 footer {
-  background-color: var(--secondary-color);
+  background-color: var(--secondary-color) !important;
 }
 .siteLogo {
   font-size: 8rem !important;
