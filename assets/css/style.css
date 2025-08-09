@@ -16,6 +16,7 @@
 }
 body {
   font-family: poppins, sans-serif;
+  scroll-behavior: smooth;
 }
 
 .navBar {
@@ -93,6 +94,18 @@ body {
   height: 70% !important;
 }
 
+footer {
+  background-color: var(--secondary-color);
+}
+.siteLogo {
+  font-size: 8rem !important;
+}
+.dokanShopText:hover {
+  color: var(--primary-color) !important;
+}
+.copyRights {
+  letter-spacing: 0.2rem;
+}
 @media screen and (max-width: 992px) {
   .landingPage {
     height: auto !important;

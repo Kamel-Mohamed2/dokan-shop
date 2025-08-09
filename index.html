@@ -14,7 +14,7 @@
   </head>
   <body>
     <!-- Landing Page Start -->
-    <main class="d-flex flex-column landingPage vh-100 mb-5">
+    <main class="d-flex flex-column landingPage vh-100 mb-5" id="home">
       <nav class="navbar navbar-expand-lg bg-body-tertiary navBar text-light">
         <div class="container d-flex justify-content-between text-light">
           <div class=""> 
@@ -43,9 +43,9 @@
               <a class="nav-link active homeBtn" aria-current="page" href="#"
                 >Home</a
               >
-              <a class="nav-link text-light" href="#">Latest Products</a>
-              <a class="nav-link text-light" href="#">top deals</a>
-              <a class="nav-link text-light" href="#">log in</a>
+              <a class="nav-link text-light" href="#latestProducts">Latest Products</a>
+              <a class="nav-link text-light" href="#topDeals">top deals</a>
+              <a class="nav-link text-light" href="">log in</a>
               <div class="btn-group">
                 <button
                   class="btn btn-secondary dropdown-toggle bg-transparent border-0 dropDownToggle fw-bold"
@@ -204,7 +204,7 @@
     <!-- Landing Page End -->
 
     <!-- Latest Products Start -->
-    <section
+    <section id="latestProducts"
       class="latest-products d-flex flex-column align-items-center justify-content-center mb-5"
     >
       <div class="text-center container">
@@ -295,7 +295,7 @@
     <!-- Video Section End -->
 
     <!-- Hot Deals Start -->
-     <section class="hot-deals ">
+     <section class="hot-deals " id="topDeals">
         <div class="container text-center">
           <h2 class="fw-bolder fs-3">Hot Deals</h2>
           <h5 class="storeDesc">Searching For Special Things! You Can Find Our Latest Deals Here</h5>
@@ -318,7 +318,7 @@
     <!-- Hot Deals End -->
 
     <!-- Feedback Start -->
-    <section class="feedback container">
+    <section class="feedback container mb-5">
       <div class="text-center mt-5">
         <h2 class="fw-bolder">Feedback</h2>
         <h5 class="storeDesc mb-4">We Will Be Very Happy, If You Submit Your Feedback Or Any Other Special Request</h5>
@@ -353,6 +353,48 @@
     </section>
     <!-- Feedback End -->
     
+    <!-- Footer Start -->
+     <footer class="text-white">
+      <div class="container ">
+        <div class=" row row-cols-1 row-cols-md-2 row-cols-lg-4 mt-5 pt-5">
+          <div class="d-flex">
+            <i class="fas fa-user-secret siteLogo"></i>
+            <a href="#home" class="text-decoration-none text-white fw-bold fs-1 dokanShopText">Dokan Shop</a>
+          </div>
+          <div class="text-center">
+            <h5 class="mb-4 fw-bolder">shopping & categories</h5>
+            <p>Men's shopping</p>
+            <p>women's shopping</p>
+            <p>kids' shopping</p>
+            <p>Accessories</p>
+          </div>
+          <div class="text-center">
+            <h5 class="mb-4 text-center fw-bolder">Useful Links</h5>
+            <p>Home Page</p>
+            <p>About Us</p>
+            <p>Contact</p>
+          </div>
+          <div class="text-center">
+            <h5 class="mb-4 text-center fw-bolder">Help & Information</h5>
+            <p>Help</p>
+            <p>FAQ'S</p>
+            <p>Track Your Shipping</p>
+          </div>
+          <hr class="w-100 border-2 text-white opacity-100">
+        </div>
+        <div class="text-center d-flex flex-column align-items-center">
+          <h5 class="mb-4 mt-4 fw-light copyRights">Copyright © 2022 DokanShop Co., Ltd. All Rights Reserved.</h5>
+          <div class="icons d-flex gap-3 mb-4">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-whatsapp"></i>
+            <i class="fab fa-youtube"></i>
+          </div>
+        </div>
+      </div>
+     </footer>
+    <!-- Footer End-->
+
     <script src="./assets/js/all.min.js"></script>
     <script src="./assets/js/bootstrap.bundle.min.js"></script>
   </body>
