@@ -1,0 +1,60 @@
+:root {
+  --primary-color: indianred;
+  --secondary-color: #343a40;
+  --dark-text: rgb(49, 13, 13);
+  --muted-text: #777;
+  --icon-color: darkgray;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  font-family: poppins, sans-serif;
+  scroll-behavior: smooth;
+}
+.navBar {
+  background-color: var(--secondary-color) !important;
+  a {
+    transition: 0.5s;
+  }
+  a:hover:not(.logo) {
+    text-transform: uppercase;
+    background-color: var(--primary-color) !important;
+    border-radius: 2rem;
+    color: white !important;
+    font-weight: lighter;
+  }
+}
+.homeBtn,
+.formInfo {
+  color: var(--primary-color) !important;
+}
+
+.hrColor {
+  color: var(--dark-text) !important;
+  border: 1px solid !important;
+}
+.dropDown {
+  transition: 0.3s;
+  background-color: var(--secondary-color) !important;
+  li:hover {
+    overflow: hidden;
+    transition: 0s;
+    background-color: var(--primary-color) !important;
+    a {
+      transition: 0.3s;
+      background-color: var(--primary-color) !important;
+      margin-left: 0.4rem !important;
+    }
+  }
+}
+.dropDownToggle:hover {
+  transition: 0.3s;
+  background-color: var(--primary-color) !important;
+  text-transform: uppercase !important;
+}
+
