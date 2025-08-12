@@ -57,11 +57,21 @@ body {
   background-color: var(--primary-color) !important;
   text-transform: uppercase !important;
 }
-.siteFooter {
-  background-color: var(--secondary-color) !important;
+button{
+  background-color: var(--primary-color) !important;
+}
+.regText {
+  color: var(--primary-color);
+}
+
+input {
+  color: var(--primary-color) !important;
 }
 .siteLogo {
   font-size: 8rem !important;
+}
+.siteFooter {
+  background-color: var(--secondary-color) !important;
 }
 .copyRights {
   letter-spacing: 0.2rem;
