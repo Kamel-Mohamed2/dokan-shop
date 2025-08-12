@@ -68,3 +68,44 @@ body {
 .copyRights {
   letter-spacing: 0.2rem;
 }
+
+main {
+  background-image: url("../media/products-background.jpg");
+  height: 50vh;
+  position: relative;
+  background-size:100% 100%;
+  background-repeat: no-repeat;
+}
+.dim::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.5;
+}
+
+.smallIcon {
+  color: var(--icon-color) !important;
+  cursor: pointer;
+}
+.smallIcon:hover {
+  color: var(--primary-color) !important;
+}
+.laodMoreBtn {
+  background-color: var(--muted-text);
+}
+.laodMoreBtn:hover {
+  background-color: var(--muted-text);
+}
+.productContainer {
+    transition: 0.3s;
+    cursor: pointer;
+}
+.productContainer:hover {
+    transform: scale(1.05) !important;
+    background-color: var(--secondary-color) !important;
+    color: white !important;
+}

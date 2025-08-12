@@ -9,7 +9,7 @@
     <!-- BOOTSTRAP -->
     <link rel="stylesheet" href="../assets/css/bootstrap.min.css" />
     <!-- STYLE -->
-    <link rel="stylesheet" href="../assets/css/style.css" />
+    <link rel="stylesheet" href="../assets/css/contact-us.css" />
     <link rel="icon" href="../assets/media/site-logo.svg" />
   </head>
   <body>
@@ -49,6 +49,7 @@
               >Latest Products</a
             >
             <a class="nav-link text-light" href="../index.html">top deals</a>
+            <a class="nav-link text-light" href="./log-in.html">log in</a>
             <div class="btn-group">
               <button
                 class="btn btn-secondary dropdown-toggle bg-transparent border-0 dropDownToggle fw-bold"
@@ -59,11 +60,14 @@
                 Pages
               </button>
               <ul class="dropdown-menu dropDown fw-bold">
-                <li class="">
-                  <a class="dropdown-item text-white fw-bold" href="./about-us.html"
+                <li>
+                  <a
+                    class="dropdown-item text-white fw-bold"
+                    href="./about-us.html"
                     >About Us</a
                   >
                 </li>
+                <hr class="hrColor opacity-100" />
                 <li>
                   <a
                     class="dropdown-item text-white fw-bold"
@@ -88,14 +92,8 @@
                 <li>
                   <a
                     class="dropdown-item text-white fw-bold"
-                    href="./accessories.html"
+                    href="./accsessories.html"
                     >Accessories</a
-                  >
-                </li>
-                <hr class="hrColor" />
-                <li>
-                  <a class="dropdown-item text-white fw-bold" href="./contact-us.html"
-                    >Contact-us</a
                   >
                 </li>
               </ul>
@@ -106,49 +104,72 @@
     </nav>
     <!-- Nav End -->
 
-    <!-- Form Start -->
-
-    <!-- Form End-->
-    <div class="d-flex align-items-center justify-content-center p-5 container">
-      <div
-        class="signInForm border-end border-5 border-secondary rounded-end rounded-5"
-      >
-        <form action="" class="d-flex flex-column gap-3 p-4">
-          <h3 class="align-self-center">Sign In</h3>
-          <div class="d-flex gap-2 align-self-center">
-            <button class="bg-primary text-white p-1 border-0">
-              Sign In With Facebook
-            </button>
-            <button class="bg-danger text-white p-1 border-0">
-              Sign In With Google+
-            </button>
-          </div>
-          <h3 class="align-self-center">Or</h3>
-          <div class="d-flex flex-column gap-2">
-            <input type="text" placeholder="User Name" class="p-1" />
-            <input type="password" placeholder="Password" class="p-1" />
-          </div>
-          <div class="d-flex gap-1">
-            <input type="checkbox" name="" id="" class="" />
-            <p class="mb-0 fw-bolder">Remember Me</p>
-          </div>
-          <button class="bg-success text-white p-1 border-0" type="submit">
-            Sign In
-          </button>
-          <a href="" class="text-primary text-decoration-none"
-            >Forget Password ?</a
-          >
-          <hr />
-          <button class="bg-info text-white p-1 border-0">
-            <a href="./sign-up.html" class="text-decoration-none text-white"
-              >Sign Up New Account</a
-            >
-          </button>
-        </form>
+    <!-- Landing Start -->
+    <main class="d-flex align-items-center justify-content-center">
+      <div class="text-center text-white">
+        <h1 class="fw-bolder contactUs">Contact Us</h1>
+        <p>"The page name itself is a call to action, feel free."</p>
       </div>
-    </div>
+    </main>
+    <!-- Landing Start -->
+
+    <!-- Address Section Start -->
+    <section class="address p-5 mb-5">
+      <div class="d-flex gap-5 justify-content-evenly align-items-center flex-sm-column flex-md-column flex-lg-row">
+        <div
+          class="map w-25 border border-end-0 border-bottom-0 border-4 border-secondary"
+        >
+          <iframe
+            class="w-100"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d610.732517701552!2d31.176533241156996!3d30.01318558976228!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14584683f68e2529%3A0x8bcd34391e0ff03f!2z2KfZhNmB2LHYs9in2YYgKDEp!5e0!3m2!1sar!2seg!4v1639144091998!5m2!1sar!2seg"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+          ></iframe>
+        </div>
+        <div class="d-flex flex-column gap-5">
+          <div class="text-center">
+            <h3 class="mainColorText mb-0 fw-bold">Address :</h3>
+            <hr / class="mainColorText opacity-100 mb-4 mt-0 w-100 border-2">
+            
+            <p class="fw-bolder text-secondary">16.B ElMariotia, Faisal, Giza, Egypt</p>
+          </div>
+          <div class="text-center">
+            <h3 class="mainColorText fw-bold">E-Mail :</h3>
+            <hr / class="mainColorText opacity-100 mb-4 mt-0 w-100 border-2">
+            <p class="fw-bolder text-secondary">dokanshop@company.com</p>
+          </div>
+          <div class="text-center">
+            <h3 class="mainColorText fw-bold">Mobile Number :</h3>
+            <hr / class="mainColorText opacity-100 mb-4 mt-0 w-100 border-2">
+            <p class="fw-bolder text-secondary">+20-11-195-544-63</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Address Section End -->
+
+    <!-- Feedback Start -->
+    <section class="feedback container p-5 d-flex flex-column align-items-center">
+      <div class="text-center mt-5">
+        <h3 class="fw-bolder mb-4">Feedback</h3>
+        <h5 class="storeDesc mb-4">We Will Be Very Happy, If You Submit Your Feedback Or Any Other Special Request</h5>
+      </div>
+      <div class="row gap-5 w-75">
+        <form action="" class=" d-flex flex-column gap-3">
+          <input type="text" placeholder="Your Name" class="p-2" >
+          <input type="email" placeholder="Your Mail" class="p-2">
+          <textarea name="" id="" placeholder="Your Feedback" class="p-2 feedbackInput"></textarea>
+          <button type="button" class="btn border-0 fw-bold p-2 w-25 align-self-end formSubmit text-white">See More</button>
+        </form>     
+      </div>
+    </section>
+    <!-- Feedback End -->
+
     <!-- Footer Start -->
-    <footer class="text-white">
+    <footer class="text-white siteFooter">
       <div class="container">
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 mt-5 pt-5">
           <div class="d-flex">
@@ -193,7 +214,7 @@
         </div>
       </div>
     </footer>
-    <!-- Footer End -->
+    <!-- Footer End-->
 
     <script src="../assets/js/all.min.js"></script>
     <script src="../assets/js/bootstrap.bundle.min.js"></script>

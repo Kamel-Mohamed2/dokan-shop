@@ -37,8 +37,8 @@ body {
 }
 
 .hrColor {
-  color: var(--dark-text) !important;
-  border: 1px solid !important;
+  color: var(--primary-color) !important;
+
 }
 .dropDown {
   transition: 0.3s;
@@ -59,12 +59,39 @@ body {
   background-color: var(--primary-color) !important;
   text-transform: uppercase !important;
 }
-.siteFooter {
-  background-color: var(--secondary-color) !important;
+
+input {
+  color: var(--primary-color) !important;
 }
 .siteLogo {
   font-size: 8rem !important;
 }
+.siteFooter {
+  background-color: var(--secondary-color) !important;
+}
 .copyRights {
   letter-spacing: 0.2rem;
+}
+main  {
+    background-image: url('../media/about-us-page-heading.jpg');
+    height: 50vh;
+    background-repeat: no-repeat;
+}
+.contactUs {
+    letter-spacing: 0.3rem;
+}
+
+
+.storeDesc {
+  letter-spacing: 0.2rem;
+  color: var(--muted-text) !important;
+}
+.feedbackInput {
+  height: 30vh !important;
+}
+.formSubmit {
+  background-color: var(--primary-color) !important;
+}
+.mainColorText {
+    color: var(--primary-color) !important;
 }
